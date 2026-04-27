@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # ----------------------------
 # Load and show original image
 # ----------------------------
-image_path = "9c412b7bddede3eafb619616a4615e44.jpg"   # make sure image is in same folder
+image_path = "6307733789072887313.png"   # make sure image is in same folder
 
 original = Image.open(image_path).convert("L")
 
@@ -128,3 +128,4 @@ print("\n--- Compression Summary ---")
 print("Original size:", original_size)
 print("RLE size:", len(rle_output))
 print("LZW size:", len(lzw_output))
+
